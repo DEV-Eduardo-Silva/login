@@ -38,11 +38,11 @@ Grandes telas: acima de 1200px
     }
     .imagem{
         width: 45%;
-        height: 100%;
+        
     }
     .formulario{
         width: 40%;
-        height: 100%;
+        
     }
     body{
         background-image: linear-gradient(to top, #49a09d,
