@@ -37,11 +37,13 @@ section#login{
     transition-timing-function: ease;
 }
 .imagem{
-    background: #5f2c82;
+   
     background-size: cover;
     border-radius: 3px;
-    height: 150px;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.692);
+    height: 180px;
+    box-shadow: 0px 0px 1px 2px rgb(245, 241, 241);
+    
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,10 +114,33 @@ form > a.botao > i {
 .campo{
     background-color: #5f2c82;
     margin: 5px 0px;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 40px;
     width: 100%;
+    border: 2px solid #5f2c82 ;
+    box-shadow:0px 0px 1px 2px rgb(216, 199, 199);
+    
 }
 .campo label{
     display: none;
+}
+.campo .material-icons{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+.campo input:focus-within {
+background-color: white;
+
+}
+.campo input{
+    background-color: #9edfae;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translateY(-12px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
 }
